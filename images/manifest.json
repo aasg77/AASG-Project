@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1000,
+    "id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677/canvas/",
+    "label" : {
+      "none" : [ "SM_1D990677" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 32,
+              "height" : 21
+            }, {
+              "width" : 63,
+              "height" : 42
+            }, {
+              "width" : 125,
+              "height" : 83
+            }, {
+              "width" : 250,
+              "height" : 165
+            }, {
+              "width" : 500,
+              "height" : 330
+            }, {
+              "width" : 1000,
+              "height" : 660
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1000,
+            "@id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 660
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1000,
+          "id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 660
+        },
+        "target" : "https://aasg77.github.io/AASG-Project/images/SM_1D990677/canvas/"
+      } ]
+    } ],
+    "height" : 660
+  }, {
+    "width" : 1000,
     "id" : "https://aasg77.github.io/AASG-Project/images/SM_1D990605/canvas/",
     "label" : {
       "none" : [ "SM_1D990605" ]
